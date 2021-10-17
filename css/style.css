@@ -1,0 +1,86 @@
+html { box-sizing: border-box; }
+
+*, *:before, *:after { box-sizing: inherit; }
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  font-weight: normal;
+  margin: 0;
+  padding: 0; }
+
+ol, ul { list-style: none; }
+
+img {
+  height: auto;
+  max-width: 100%; }
+
+  *{margin: 0;
+    padding: 0;
+  
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+  @import "./article-style.css";
+  
+
+
+body{
+    background-color:#eee;
+    width: 60%;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+  }
+  h1{
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  letter-spacing: 10px;
+}
+h2{
+    background-color: gray;
+    color: #fff;
+    font-weight: 2px;
+    padding: 7px 15px;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 4px;
+
+}
+
+img{
+ width: 250px;
+}
+
+article{
+  margin: 30px;
+  padding: 0px 2em;
+}
+
+.flex_container{
+  display:flex;
+  flex-direction: row;
+}
+
+.first{
+  text-align: justify;
+  text-indent: 40px;
+  word-spacing: 4px;
+  font-size: 1.2em;
+}
+
+.second{
+  margin-top: 2em;
+  text-indent: 40px;
+  text-align: justify;
+  word-spacing: 4px;
+  font-size: 1.2em;
+}
+.red-text{
+
+   color: red;
+   font-style: italic;
+
+}
+.white-text{
+  background-color: white;
+  font-weight: bold;
+}
